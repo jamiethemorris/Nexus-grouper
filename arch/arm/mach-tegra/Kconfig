@@ -574,7 +574,6 @@ config TEGRA_PREINIT_CLOCKS
 	help
 	  Preinitialize Tegra clocks to known states before actual full-
 	  scale clock initialization starts.
-endif
 
 config RQ_STATS
 	bool "Enable Run queue statistics"
@@ -583,3 +582,4 @@ config RQ_STATS
 	  Select this to enable scheduler rune queue statistic
 	  collections
 
+endif
