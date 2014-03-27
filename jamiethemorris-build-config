@@ -1,4 +1,4 @@
-CROSS_COMPILE=/home/jamiethemorris/android-toolchain-eabi-4.7/bin/arm-eabi-
+CROSS_COMPILE=/home/jamiethemorris/arm-cortex_a9-linux-gnueabihf-linaro_4.8.3-2014.03/bin/arm-cortex_a9-linux-gnueabihf-
 HOST_CC=gcc
 LOCAL_BUILD_DIR=nexus7
 TARGET_DIR=~/nexus7/updates
