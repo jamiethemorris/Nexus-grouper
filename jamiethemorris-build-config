@@ -1,0 +1,18 @@
+CROSS_COMPILE=/home/jamiethemorris/arm-cortex_a15-linux-gnueabihf-linaro_4.8.3-2014.02/bin/arm-cortex_a15-linux-gnueabihf-
+HOST_CC=gcc
+LOCAL_BUILD_DIR=nexus7
+TARGET_DIR=~/nexus7/updates
+SYSTEM_PARTITION="/dev/block/platform/sdhci-tegra.3/by-name/APP"
+DEFCONFIG=jamiethemorris_defconfig
+FLASH_BOOT='write_raw_image("/tmp/boot.img", "boot")'
+
+# ----
+
+N_CORES=8
+VERSION=faux123-v025_jamiethemorris
+
+# ----
+
+BANNER=`cat <<EOF
+ui_print("jamiethemorris's Nexus 7 Kernel");
+EOF`
